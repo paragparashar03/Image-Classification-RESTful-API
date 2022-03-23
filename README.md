@@ -21,7 +21,7 @@ NOTES:
 6. You will get url after succesfully running above commands. Paste that url on the POSTMAN to control things
 7. POSTMAN is used to send/receive (POST/GET) request/responses.
 8. classify_image.py file uses tensorflow v1. So, I have used Python:3.6.7 in the Dockerfile so that tensorflow 1.14 is installed when we dockerize the application.
-9. See requirement.txt file to the redependencies for the present application.
+9. See requirement.txt file to the dependencies for the present application.
 
 
 
