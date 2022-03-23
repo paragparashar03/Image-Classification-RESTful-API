@@ -7,9 +7,9 @@ This is an API aimed at exploring FLASK, databases as a service (MongoDb), and R
 We dockerized this appplication and deployed it in the web.
 
 NOTES:
-1. Classify_image.py file contains the model for classification (downloaded from github). You can import new classification models as well.
+1. Classify_image.py file (in web folder) contains the model for classification (downloaded from github). You can import new classification models as well.
 2. app.py is the main file for this application.
-3. The main folder classifyimages has docker-compose.yml file and 2 folders
+3. We have docker-compose.yml file and 2 folders
    1. db (that has a Dockerfile for mongodb) 2. web (that has app.py, classify_image.py, Dockerfile, requirement.txt files)
 
 4. docker-compose.yml file controls the application.
